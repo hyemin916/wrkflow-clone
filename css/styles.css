@@ -1,0 +1,145 @@
+/* Global */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Public+Sans:wght@500;700&display=swap");
+@import url(reset.css);
+
+:root {
+  /* Color */
+  --navy: #00006d;
+  --purple: #7738ff;
+  --dark-purple: #6e34ea;
+  --light-purple: #f0ecff;
+  --gray: #5d6477;
+  --light-gray: #fafbff;
+  --orange: #ff9900;
+  --light-orange: #faf3ef;
+  --pink: #fb5292;
+  --light-pink: #faeef7;
+  --green: #69c85a;
+  --light-green: #eef7f3;
+
+  /* Color(dark ver.) */
+  --white: #f8fafc;
+  --dark-navy: #14141b;
+  --blue-gray: #9babbf;
+  --dark-gray: #1e1e27;
+
+  /* Font size */
+  --font-large: 48px;
+  --font-medium: 36px;
+  --font-regular: 24px;
+  --font-small: 20px;
+  --font-micro: 16px;
+
+  /* Font weight */
+  --font-black: 900;
+  --font-bold: 700;
+
+  /* Space size */
+  --base-space: 80px;
+  --space-large: 144px;
+  --space-medium: 93px;
+  --space-regular: 48px;
+  --space-small: 32px;
+  --space-micro: 24px;
+  --head-width: 960px;
+  --section-width: 1236px;
+
+  /* Border */
+  --redius-large: 56px;
+  --radius-medium: 32px;
+  --radius-small: 16px;
+  --light-border: 2px solid var(--light-purple);
+  --dark-border: 2px solid var(--dark-purple);
+}
+
+/* Universal tags */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--light-gray);
+  color: var(--gray);
+  width: 100%;
+  height: 100%;
+  font-family: "Public Sans", sans-serif;
+  font-size: var(--font-small);
+  line-height: 1.5;
+}
+
+a:link,
+a:visited {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.item--link {
+  font-size: var(--font-micro);
+  font-weight: var(--font-bold);
+}
+
+/* Typography */
+
+h1,
+h2 {
+  font-family: "Merriweather", serif;
+  color: var(--navy);
+  font-weight: var(--font-black);
+}
+
+h1 {
+  font-size: var(--font-large);
+}
+
+h2 {
+  font-size: var(--font-medium);
+}
+
+p {
+  font-size: var(--font-regular);
+}
+
+/* Container */
+
+.section--container {
+  max-width: 1332px;
+  padding: 0 42px;
+  margin: auto;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header__col {
+  display: flex;
+  justify-content: space-between;
+  margin-left: var(--space-medium);
+  width: 100%;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  margin-right: var(--space-regular);
+}
+
+.header__control {
+  display: flex;
+}
+
+.header__sign-in {
+  display: flex;
+}
+
+.header__sign-in svg {
+  width: 20px;
+  height: 20px;
+  color: var(--purple);
+}

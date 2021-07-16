@@ -6,26 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <mata name="author" content="Hyemin" />
     <mata name="description" content="Clone Coding with HTML, CSS, Vanilla JS">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>WRKFLOW.</title>
   </head>
   <body>
     <!-- Header -->
-    <header class="header">
+    <section class="l-container">
+    <header class="header l-center">
       <a class="header__logo">
         <img src="icons/logo-dark.svg" alt="" class="header__pic">
       </a>
-      <div class="header__l-column">
+      <div class="header__col">
         <nav class="header__nav">
           <ul class="nav__list">
-            <li class="nav__item">Pricing</li>
-            <li class="nav__item">Hoew it Works</li>
-            <li class="nav__item">FAQ</li>
+            <li class="nav__item"><a href="#" class="item--link">Pricing</a></li>
+            <li class="nav__item"><a href="#" class="item--link">Hoew it Works</a></li>
+            <li class="nav__item"><a href="#" class="item--link">FAQ</a></li>
           </ul>
         </nav>
         <div class="header__control">
-          <a href="#" class="header__sign-in">Sign in 
+          <a href="#" class="header__sign-in item--link">Sign in 
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
             </svg>
@@ -34,9 +34,11 @@
         </div>
       </div>
     </header>
+    </section>
 
     <!-- Main -->
-    <section class="main">
+    <section class="l-container">
+    <section class="main l-center">
       <div class="main__text">
         <h1 class="main__title">Manage your daily tasks better without all the stress.</h1>
         <p class="main__description">Change the way yo manage your taks with our revolutionary project management technology.</p>
@@ -52,9 +54,11 @@
       </div>
       <img src="img/main-pic.png" alt="" class="main__image">
     </section>
+    </section>
 
     <!-- Qualities -->
-    <section class="qualities">
+    <section class="l-container">
+    <section class="qualities l-center">
       <div class="qualities__head">
         <article class="head-text">
           <h2 class="head-text__title">Get more done in <a href="#">less time</a></h2>
@@ -76,9 +80,10 @@
         </li>
       </ul>
     </section>
-
+    </section>
       <!-- Work -->
-    <section class="work">
+    <section class="l-container">
+    <section class="work l-center">
         <ul class="work__list">
           <li class="work__item">
             <article class="detail">
@@ -136,9 +141,11 @@
           </li>
         </ul>
     </section>
+    </section>
 
     <!-- Picture -->
-    <section class="picture">
+    <section class="l-container">
+    <section class="picture l-center">
       <div class="picture__head">
         <article class="head-text">
           <h2 class="head-text__title">Fully reinvented project management system to help you <a href="#">ship products faster</a></h2>
@@ -147,9 +154,11 @@
         <img src="img/system-pic.png" alt="" class="picture__image">
       </div>
     </section>
+    </section>
 
     <!-- Reviews -->
-    <section class="reviews">
+    <section class="l-container">
+    <section class="reviews l-center">
       <h2 class="reviews__title">Taking producers and content managers to a whole new level.
       </h2>
 
@@ -189,9 +198,11 @@
         </div>
       </div>
     </section>
+    </section>
 
     <!-- Achievements -->
-    <section class="achievements">
+    <section class="l-container">
+    <section class="achievements l-center">
       <div class="achievements__head">
         <article class="head-text">
           <h2 class="head-text__title">Completely <a href="#">free to use</a> with useful premium features</h2>
@@ -221,17 +232,19 @@
         </li>
       </ul>
     </section>
+    </section>
 
     <!-- Trial -->
-    <section class="trial">
+    <section class="l-container">
+    <section class="trial l-center">
       <div class="trial__container">
-        <div class="trial__column">
+        <div class="trial__col">
           <article class="head-text">
             <h2 class="head-text__title">Completely <a href="#">free to use</a> with useful premium features</h2>
             <p class="head-text__description">Join us and see why our users love us ❤️</p>
           </article>
         </div>
-        <div class="trial__column">
+        <div class="trial__col">
           <a href="#" class="c-start-btn">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -241,11 +254,13 @@
         </div>
       </div>
     </section>
+    </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <section class="l-container">
+    <footer class="footer l-center">
       <div class="footer__row">
-        <div class="footer__column">
+        <div class="footer__col">
         <img src="icons/logo-dark.svg" alt="" class="footer__icon">
         <div class="footer__mode">
           <img src="icons/sun.svg" alt="" class="footer__mode-state">
@@ -254,20 +269,20 @@
           </div>
         </div>
         </div>
-        <div class="footer__column">
+        <div class="footer__col">
         <ul class="footer__menu">
-          <li class="footer__item">Pricing</li>
-          <li class="footer__item">How it Works</li>
-          <li class="footer__item">FAQ</li>
+          <li class="footer__item"><a href="#" class="item--link">Pricing</a></li>
+          <li class="footer__item"><a href="#" class="item--link">How it Works</a></li>
+          <li class="footer__item"><a href="#" class="item--link">FAQ</a></li>
         </ul>
         </div>
-        <div class="footer__column">
+        <div class="footer__col">
         <ul class="footer__policy">
-          <li class="footer__item">Terms of Service</li>
-          <li class="footer__item">Privacy Policy</li>
+          <li class="footer__item"><a href="#" class="item--link">Terms of Service</a></li>
+          <li class="footer__item"><a href="#" class="item--link">Privacy Policy</a></li>
         </ul>
         </div>
-        <div class="footer__column">
+        <div class="footer__col">
         <div class="footer__link">
           <a href="#" class="footer__sns"><i class="fab fa-instagram"></i></a>
           <a href="#" class="footer__sns"><i class="fab fa-twitter"></i></a>
@@ -276,6 +291,7 @@
         </div>
       </div>
     </footer>
+    </section>
 
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/cd2686e2ae.js" crossorigin="anonymous"></script>
