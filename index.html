@@ -6,33 +6,278 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <mata name="author" content="Hyemin" />
     <mata name="description" content="Clone Coding with HTML, CSS, Vanilla JS">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <title>WRKFLOW.</title>
   </head>
   <body>
     <!-- Header -->
     <header class="header">
-      
+      <a class="header__logo">
+        <img src="icons/logo-dark.svg" alt="" class="header__pic">
+      </a>
+      <div class="header__l-column">
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li class="nav__item">Pricing</li>
+            <li class="nav__item">Hoew it Works</li>
+            <li class="nav__item">FAQ</li>
+          </ul>
+        </nav>
+        <div class="header__control">
+          <a href="#" class="header__sign-in">Sign in 
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a href="#" class="header__start-btn">Get Started</a>
+        </div>
+      </div>
     </header>
 
     <!-- Main -->
-    <section class="main"></section>
+    <section class="main">
+      <div class="main__text">
+        <h1 class="main__title">Manage your daily tasks better without all the stress.</h1>
+        <p class="main__description">Change the way yo manage your taks with our revolutionary project management technology.</p>
+        <div class="main__btns">
+          <a href="#" class="c-start-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+            <span>Get Started</span>
+          </a>
+          <a href="#" class="main__demo-btn">Schedule a Demo</a>
+        </div>
+      </div>
+      <img src="img/main-pic.png" alt="" class="main__image">
+    </section>
 
-    <!-- About -->
-    <section class="about"></section>
+    <!-- Qualities -->
+    <section class="qualities">
+      <div class="qualities__head">
+        <article class="head-text">
+          <h2 class="head-text__title">Get more done in <a href="#">less time</a></h2>
+          <p class="head-text__description">Simple, fast, effotlessly</p>
+        </article>
+      </div>
+      <ul class="qualities__list">
+        <li class="qulities__item">
+          <img src="icons/pricing.svg" alt="">
+          <span>Transparent Pricing</span>
+        </li>
+        <li class="qulities__item">
+          <img src="icons/integrations.svg" alt="">
+          <span>Easy Integrations</span>
+        </li>
+        <li class="qulities__item">
+          <img src="icons/increase.svg" alt="">
+          <span>Suberb Efficiency</span>
+        </li>
+      </ul>
+    </section>
+
+      <!-- Work -->
+    <section class="work">
+        <ul class="work__list">
+          <li class="work__item">
+            <article class="detail">
+              <div class="detail__window">
+                <img src="img/details-pic-1.png" alt="" class="datail__image">
+              </div>
+              <div class="detail__text">
+                <h2 class="detail__title">Revolutionize your workflow
+                </h2>
+                <p class="detail__description">We have designed our app for increased efficiency and it will help you to start getting more things done.
+                </p>
+                <a href="#" class="detail__link">Learn More
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </article>
+          </li>
+          <li class="work__item">
+            <article class="detail">
+              <div class="detail__window">
+                <img src="img/details-pic-2.png" alt="" class="datail__image">
+              </div>
+              <div class="detail__text">
+                <h2 class="detail__title">Free template library included
+                </h2>
+                <p class="detail__description">We have got quite a few already made templates for better project management that you can use now.
+                </p>
+                <a href="#" class="detail__link">Watch the Video
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </article>
+          </li>
+          <li class="work__item">
+            <article class="detail">
+              <div class="detail__window">
+                <img src="img/details-pic-3.png" alt="" class="datail__image">
+              </div>
+              <div class="detail__text">
+                <h2 class="detail__title">Used by teams from all over the globe
+                </h2>
+                <p class="detail__description">Our app has been trusted by many different teams from around the world and we have got some great reviews.
+                </p>
+                <a href="#" class="detail__link">See Reviews
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </article>
+          </li>
+        </ul>
+    </section>
 
     <!-- Picture -->
-    <section class="picture"></section>
+    <section class="picture">
+      <div class="picture__head">
+        <article class="head-text">
+          <h2 class="head-text__title">Fully reinvented project management system to help you <a href="#">ship products faster</a></h2>
+          <p class="head-text__description">Focus on what matters most, our robots handle the rest ☕️</p>
+        </article>
+        <img src="img/system-pic.png" alt="" class="picture__image">
+      </div>
+    </section>
 
     <!-- Reviews -->
-    <section class="reviews"></section>
+    <section class="reviews">
+      <h2 class="reviews__title">Taking producers and content managers to a whole new level.
+      </h2>
+
+      <div class="reviews__review">
+        <div class="c-slider">
+          <ul class="c-slider__items">
+            <li class="c-slider__item">
+              <img src="img/ava-1.png" alt="" class="c-slider__avatar">
+              <div class="c-slider__text">
+                <h3 class="c-slider__title">"This is one of the most advanced project management apps."</h3>
+                <p class="c-slider__detail">In my entire working career, I have used quite a lot of different tools to manage the projects and this app is the best one.</p>
+                <span class="c-slider__author">-Yana Lin, CEO at CrunchiiRoll</span>
+              </div>            
+            </li>
+            <li class="c-slider__item">
+              <img src="img/ava-1.png" alt="" class="c-slider__avatar">
+              <div class="c-slider__text">
+                <h3 class="c-slider__title">"This is one of the most advanced project management apps."</h3>
+                <p class="c-slider__detail">In my entire working career, I have used quite a lot of different tools to manage the projects.</p>
+                <span class="c-slider__author">-Yana Lin, CEO at CrunchiiRoll</span>
+              </div>            
+            </li>
+            <li class="c-slider__item">
+              <img src="img/ava-1.png" alt="" class="c-slider__avatar">
+              <div class="c-slider__text">
+                <h3 class="c-slider__title">"This is one of the most advanced project management apps."</h3>
+                <p class="c-slider__detail">In my entire working career, I have used quite a lot of different tools to manage the projects and this app is the best one.</p>
+                <span class="c-slider__author">-Yana Lin, CEO at CrunchiiRoll</span>
+              </div>            
+            </li>
+          </ul>
+          <div class="c-slider__dots">
+            <button class="c-slider__dot"></button>
+            <button class="c-slider__dot"></button>
+            <button class="c-slider__dot"></button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Achievements -->
-    <section class="achievements"></section>
+    <section class="achievements">
+      <div class="achievements__head">
+        <article class="head-text">
+          <h2 class="head-text__title">Completely <a href="#">free to use</a> with useful premium features</h2>
+          <p class="head-text__description">Join us and see why our users love us ❤️</p>
+        </article>
+      </div>
+      <ul class="achievements__list">
+        <li class="achievements__item achievements__item--purple">
+          <div class="achievements__row"><img src="icons/profile.svg" alt=""></div>
+          <div class="achievements__row">3,000,000+</div>
+          <div class="achievements__row">Daily active users</div>
+        </li>
+        <li class="achievements__item achievements__item--pink">
+          <div class="achievements__row"><img src="icons/task.svg" alt=""></div>
+          <div class="achievements__row">10,090,000+</div>
+          <div class="achievements__row">Tasks completed</div>
+        </li>
+        <li class="achievements__item achievements__item--yellow">
+          <div class="achievements__row"><img src="icons/business.svg" alt=""></div>
+          <div class="achievements__row">12,500+</div>
+          <div class="achievements__row">Companies using our software</div>
+        </li>
+        <li class="achievements__item achievements__item--green">
+          <div class="achievements__row"><img src="icons/positive.svg" alt=""></div>
+          <div class="achievements__row">275,000+</div>
+          <div class="achievements__row">Positive reviews</div>
+        </li>
+      </ul>
+    </section>
 
     <!-- Trial -->
-    <section class="trial"></section>
+    <section class="trial">
+      <div class="trial__container">
+        <div class="trial__column">
+          <article class="head-text">
+            <h2 class="head-text__title">Completely <a href="#">free to use</a> with useful premium features</h2>
+            <p class="head-text__description">Join us and see why our users love us ❤️</p>
+          </article>
+        </div>
+        <div class="trial__column">
+          <a href="#" class="c-start-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+            <span>Get Started</span>
+          </a>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__row">
+        <div class="footer__column">
+        <img src="icons/logo-dark.svg" alt="" class="footer__icon">
+        <div class="footer__mode">
+          <img src="icons/sun.svg" alt="" class="footer__mode-state">
+          <div class="c-switch">
+            <button class="c-switch__btn"></button>
+          </div>
+        </div>
+        </div>
+        <div class="footer__column">
+        <ul class="footer__menu">
+          <li class="footer__item">Pricing</li>
+          <li class="footer__item">How it Works</li>
+          <li class="footer__item">FAQ</li>
+        </ul>
+        </div>
+        <div class="footer__column">
+        <ul class="footer__policy">
+          <li class="footer__item">Terms of Service</li>
+          <li class="footer__item">Privacy Policy</li>
+        </ul>
+        </div>
+        <div class="footer__column">
+        <div class="footer__link">
+          <a href="#" class="footer__sns"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="footer__sns"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="footer__sns"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/cd2686e2ae.js" crossorigin="anonymous"></script>
   </body>
 </html>
