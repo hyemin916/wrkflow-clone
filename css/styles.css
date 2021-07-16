@@ -100,7 +100,7 @@ p {
   font-size: var(--font-regular);
 }
 
-/* Container */
+/* Layout */
 
 .section--container {
   max-width: 1332px;
