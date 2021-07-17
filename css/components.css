@@ -60,6 +60,14 @@
   border-radius: 50%;
 }
 
+.c-icon-box--purple {
+  background-color: var(--light-purple);
+}
+
+.c-icon-box--green {
+  background-color: var(--light-green);
+}
+
 .c-icon-box--blue {
   background-color: var(--light-blue);
 }
