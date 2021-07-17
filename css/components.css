@@ -1,0 +1,74 @@
+/* Button */
+.c-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 154px;
+  height: 64px;
+  padding: 0 var(--space-small);
+  font-weight: 700;
+  border-radius: 56px;
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+.c-btn--light {
+  background-color: transparent;
+  color: var(--purple);
+  border: var(--light-border);
+  transition: all 250ms ease-in;
+}
+
+/* Text link */
+.c-link {
+  line-height: var(--font-micro);
+  font-size: var(--font-micro);
+  font-weight: var(--font-bold);
+}
+
+/* Head text */
+.c-head-text {
+  text-align: center;
+  margin-bottom: 93px;
+}
+
+.c-head-text__link {
+  color: var(--purple);
+  border-bottom: 3px solid var(--purple);
+}
+
+/* Arrow right */
+.arrow-right {
+  margin-left: 20px;
+  color: var(--purple);
+}
+
+.c-btn .arrow-right {
+  color: var(--white);
+  margin-left: 6px;
+  margin-right: 30px;
+  font-size: var(--font-regular);
+}
+
+/* Icon box */
+
+.c-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.c-icon-box--blue {
+  background-color: var(--light-blue);
+}
+
+.c-icon-box--orange {
+  background-color: var(--light-orange);
+}
+
+.c-icon-box--pink {
+  background-color: var(--light-pink);
+}

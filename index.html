@@ -5,96 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <mata name="author" content="Hyemin" />
-    <mata name="description" content="Clone Coding with HTML, CSS, Vanilla JS">
-    <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/main.css">
+    <mata
+      name="description"
+      content="Clone Coding with HTML, CSS, Vanilla JS"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- CSS Components -->
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/components.css" />
+
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/qualities.css" />
+
     <title>WRKFLOW.</title>
   </head>
   <body>
     <!-- Header -->
     <header class="header">
       <div class="header__container l-container">
-      <a class="header__logo">
-        <img src="icons/logo-dark.svg" alt="" class="header__pic">
-      </a>
-      <div class="header__col">
-        <nav class="header__nav">
+        <a class="header__logo">
+          <img src="icons/logo-dark.svg" alt="" class="header__pic" />
+        </a>
+        <div class="header__col">
+          <nav class="header__nav">
             <a href="#" class="header__item c-link">Pricing</a>
             <a href="#" class="header__item c-link">How it Works</a>
             <a href="#" class="header__item c-link">FAQ</a>
-        </nav>
-        <div class="header__control">
-          <a href="#" class="header__sign-in c-link"><span>Sign in</span>
-            <i class="fas fa-chevron-right arrow-right"></i>
-          </a>
-          <a href="#" class="header__start-btn c-btn">Get Started</a>
+          </nav>
+          <div class="header__control">
+            <a href="#" class="header__sign-in c-link"
+              ><span>Sign in</span>
+              <i class="fas fa-chevron-right arrow-right"></i>
+            </a>
+            <a href="#" class="header__start-btn c-btn">Get Started</a>
+          </div>
         </div>
-      </div>
       </div>
     </header>
 
     <!-- Main -->
     <section class="main l-section">
       <div class="main__container l-container">
-      <div class="main__text">
-        <h1 class="main__title">Manage your daily tasks better without all the stress.</h1>
-        <p class="main__description">Change the way you manage your tasks with our revolutionary project management technology.</p>
-        <div class="main__btns">
-          <a href="#" class="main__start-btn c-btn c-btn--start">
-            <i class="fas fa-chevron-right arrow-right"></i>
-            <span>Get Started</span>
-          </a>
-          <a href="#" class="main__demo-btn c-btn c-btn--light">Schedule a Demo</a>
+        <div class="main__text">
+          <h1 class="main__title">
+            Manage your daily tasks better without all the stress.
+          </h1>
+          <p class="main__description">
+            Change the way you manage your tasks with our revolutionary project
+            management technology.
+          </p>
+          <div class="main__btns">
+            <a href="#" class="main__start-btn c-btn c-btn--start">
+              <i class="fas fa-chevron-right arrow-right"></i>
+              <span>Get Started</span>
+            </a>
+            <a href="#" class="main__demo-btn c-btn c-btn--light"
+              >Schedule a Demo</a
+            >
+          </div>
         </div>
-      </div>
-      <img src="img/main-pic.png" alt="" class="main__image">
+        <img src="img/main-pic.png" alt="" class="main__image" />
       </div>
     </section>
 
     <!-- Qualities -->
     <section class="qualities l-section">
       <div class="qualities__container l-container">
-      <div class="qualities__head">
-        <article class="head-text">
-          <h2 class="head-text__title">Get more done in <a href="#">less time</a></h2>
-          <p class="head-text__description">Simple, fast, effotlessly</p>
-        </article>
-      </div>
-      <ul class="qualities__list">
-        <li class="qulities__item">
-          <img src="icons/pricing.svg" alt="">
-          <span>Transparent Pricing</span>
-        </li>
-        <li class="qulities__item">
-          <img src="icons/integrations.svg" alt="">
-          <span>Easy Integrations</span>
-        </li>
-        <li class="qulities__item">
-          <img src="icons/increase.svg" alt="">
-          <span>Suberb Efficiency</span>
-        </li>
-      </ul>
+        <div class="qualities__head">
+          <article class="c-head-text">
+            <h2 class="c-head-text__title">
+              Get more done in
+              <a href="#" class="c-head-text__link">less time</a>
+            </h2>
+            <p class="c-head-text__description">Simple, fast, effotlessly</p>
+          </article>
+        </div>
+        <ul class="qualities__list">
+          <li class="qualities__item">
+            <div class="qualities__icon c-icon-box c-icon-box--blue">
+              <img src="icons/pricing.svg" alt="" />
+            </div>
+            <span>Transparent Pricing</span>
+          </li>
+          <li class="qualities__item">
+            <div class="qualities__icon c-icon-box c-icon-box--orange">
+              <img src="icons/integrations.svg" alt="" />
+            </div>
+            <span>Easy Integrations</span>
+          </li>
+          <li class="qualities__item">
+            <div class="qualities__icon c-icon-box c-icon-box--pink">
+              <img src="icons/increase.svg" alt="" />
+            </div>
+            <span>Suberb Efficiency</span>
+          </li>
+        </ul>
       </div>
     </section>
 
-      <!-- Work -->
+    <!-- Work -->
     <section class="work l-section">
       <div class="work__container l-container">
         <ul class="work__list">
-
           <li class="work__item">
             <article class="detail">
               <div class="detail__window">
-                <img src="img/details-pic-1.png" alt="" class="datail__image">
+                <img src="img/details-pic-1.png" alt="" class="datail__image" />
               </div>
               <div class="detail__text">
-                <h2 class="detail__title">Revolutionize your workflow
-                </h2>
-                <p class="detail__description">We have designed our app for increased efficiency and it will help you to start getting more things done.
+                <h2 class="detail__title">Revolutionize your workflow</h2>
+                <p class="detail__description">
+                  We have designed our app for increased efficiency and it will
+                  help you to start getting more things done.
                 </p>
-                <a href="#" class="detail__link">Learn More
+                <a href="#" class="detail__link"
+                  >Learn More
                   <i class="fas fa-chevron-right arrow-right"></i>
                 </a>
               </div>
@@ -104,14 +132,16 @@
           <li class="work__item">
             <article class="detail">
               <div class="detail__window">
-                <img src="img/details-pic-2.png" alt="" class="datail__image">
+                <img src="img/details-pic-2.png" alt="" class="datail__image" />
               </div>
               <div class="detail__text">
-                <h2 class="detail__title">Free template library included
-                </h2>
-                <p class="detail__description">We have got quite a few already made templates for better project management that you can use now.
+                <h2 class="detail__title">Free template library included</h2>
+                <p class="detail__description">
+                  We have got quite a few already made templates for better
+                  project management that you can use now.
                 </p>
-                <a href="#" class="detail__link">Watch the Video
+                <a href="#" class="detail__link"
+                  >Watch the Video
                   <i class="fas fa-chevron-right arrow-right"></i>
                 </a>
               </div>
@@ -121,20 +151,23 @@
           <li class="work__item">
             <article class="detail">
               <div class="detail__window">
-                <img src="img/details-pic-3.png" alt="" class="datail__image">
+                <img src="img/details-pic-3.png" alt="" class="datail__image" />
               </div>
               <div class="detail__text">
-                <h2 class="detail__title">Used by teams from all over the globe
+                <h2 class="detail__title">
+                  Used by teams from all over the globe
                 </h2>
-                <p class="detail__description">Our app has been trusted by many different teams from around the world and we have got some great reviews.
+                <p class="detail__description">
+                  Our app has been trusted by many different teams from around
+                  the world and we have got some great reviews.
                 </p>
-                <a href="#" class="detail__link">See Reviews
+                <a href="#" class="detail__link"
+                  >See Reviews
                   <i class="fas fa-chevron-right arrow-right"></i>
                 </a>
               </div>
             </article>
           </li>
-
         </ul>
       </div>
     </section>
@@ -142,157 +175,218 @@
     <!-- Picture -->
     <section class="picture l-section">
       <div class="picture__container l-container">
-      <div class="picture__head">
-        <article class="head-text">
-          <h2 class="head-text__title">Fully reinvented project management system to help you <a href="#">ship products faster</a></h2>
-          <p class="head-text__description">Focus on what matters most, our robots handle the rest ☕️</p>
-        </article>
-        <img src="img/system-pic.png" alt="" class="picture__image">
-      </div>
+        <div class="picture__head">
+          <article class="c-head-text">
+            <h2 class="c-head-text__title">
+              Fully reinvented project management system to help you
+              <a href="#" class="c-head-text__link">ship products faster</a>
+            </h2>
+            <p class="c-head-text__description">
+              Focus on what matters most, our robots handle the rest ☕️
+            </p>
+          </article>
+          <img src="img/system-pic.png" alt="" class="picture__image" />
+        </div>
       </div>
     </section>
 
     <!-- Reviews -->
     <section class="reviews">
       <div class="reviews__container l-container">
-      <h2 class="reviews__title">Taking producers and content managers to a whole new level.
-      </h2>
+        <h2 class="reviews__title">
+          Taking producers and content managers to a whole new level.
+        </h2>
 
-      <div class="reviews__review">
-        <div class="c-slider">
-          <ul class="c-slider__items">
+        <div class="reviews__review">
+          <div class="c-slider">
+            <ul class="c-slider__items">
+              <li class="c-slider__item">
+                <img src="img/ava-1.png" alt="" class="c-slider__avatar" />
+                <div class="c-slider__text">
+                  <h3 class="c-slider__title">
+                    "This is one of the most advanced project management apps."
+                  </h3>
+                  <p class="c-slider__detail">
+                    In my entire working career, I have used quite a lot of
+                    different tools to manage the projects and this app is the
+                    best one.
+                  </p>
+                  <span class="c-slider__author"
+                    >-Yana Lin, CEO at CrunchiiRoll</span
+                  >
+                </div>
+              </li>
 
-            <li class="c-slider__item">
-              <img src="img/ava-1.png" alt="" class="c-slider__avatar">
-              <div class="c-slider__text">
-                <h3 class="c-slider__title">"This is one of the most advanced project management apps."</h3>
-                <p class="c-slider__detail">In my entire working career, I have used quite a lot of different tools to manage the projects and this app is the best one.</p>
-                <span class="c-slider__author">-Yana Lin, CEO at CrunchiiRoll</span>
-              </div>            
-            </li>
+              <li class="c-slider__item">
+                <img src="img/ava-1.png" alt="" class="c-slider__avatar" />
+                <div class="c-slider__text">
+                  <h3 class="c-slider__title">
+                    "This is one of the most advanced project management apps."
+                  </h3>
+                  <p class="c-slider__detail">
+                    In my entire working career, I have used quite a lot of
+                    different tools to manage the projects.
+                  </p>
+                  <span class="c-slider__author"
+                    >-Yana Lin, CEO at CrunchiiRoll</span
+                  >
+                </div>
+              </li>
 
-            <li class="c-slider__item">
-              <img src="img/ava-1.png" alt="" class="c-slider__avatar">
-              <div class="c-slider__text">
-                <h3 class="c-slider__title">"This is one of the most advanced project management apps."</h3>
-                <p class="c-slider__detail">In my entire working career, I have used quite a lot of different tools to manage the projects.</p>
-                <span class="c-slider__author">-Yana Lin, CEO at CrunchiiRoll</span>
-              </div>            
-            </li>
-
-            <li class="c-slider__item">
-              <img src="img/ava-1.png" alt="" class="c-slider__avatar">
-              <div class="c-slider__text">
-                <h3 class="c-slider__title">"This is one of the most advanced project management apps."</h3>
-                <p class="c-slider__detail">In my entire working career, I have used quite a lot of different tools to manage the projects and this app is the best one.</p>
-                <span class="c-slider__author">-Yana Lin, CEO at CrunchiiRoll</span>
-              </div>            
-            </li>
-
-          </ul>
-          <div class="c-slider__dots">
-            <button class="c-slider__dot"></button>
-            <button class="c-slider__dot"></button>
-            <button class="c-slider__dot"></button>
+              <li class="c-slider__item">
+                <img src="img/ava-1.png" alt="" class="c-slider__avatar" />
+                <div class="c-slider__text">
+                  <h3 class="c-slider__title">
+                    "This is one of the most advanced project management apps."
+                  </h3>
+                  <p class="c-slider__detail">
+                    In my entire working career, I have used quite a lot of
+                    different tools to manage the projects and this app is the
+                    best one.
+                  </p>
+                  <span class="c-slider__author"
+                    >-Yana Lin, CEO at CrunchiiRoll</span
+                  >
+                </div>
+              </li>
+            </ul>
+            <div class="c-slider__dots">
+              <button class="c-slider__dot"></button>
+              <button class="c-slider__dot"></button>
+              <button class="c-slider__dot"></button>
+            </div>
           </div>
-          
         </div>
-      </div>
       </div>
     </section>
 
     <!-- Achievements -->
     <section class="achievements">
       <div class="achievements__container l-container">
-      <div class="achievements__head">
-        <article class="head-text">
-          <h2 class="head-text__title">Completely <a href="#">free to use</a> with useful premium features</h2>
-          <p class="head-text__description">Join us and see why our users love us ❤️</p>
-        </article>
-      </div>
-      <ul class="achievements__list">
-        <li class="achievements__item achievements__item--purple">
-          <div class="achievements__row"><img src="icons/profile.svg" alt=""></div>
-          <div class="achievements__row">3,000,000+</div>
-          <div class="achievements__row">Daily active users</div>
-        </li>
-        <li class="achievements__item achievements__item--pink">
-          <div class="achievements__row"><img src="icons/task.svg" alt=""></div>
-          <div class="achievements__row">10,090,000+</div>
-          <div class="achievements__row">Tasks completed</div>
-        </li>
-        <li class="achievements__item achievements__item--yellow">
-          <div class="achievements__row"><img src="icons/business.svg" alt=""></div>
-          <div class="achievements__row">12,500+</div>
-          <div class="achievements__row">Companies using our software</div>
-        </li>
-        <li class="achievements__item achievements__item--green">
-          <div class="achievements__row"><img src="icons/positive.svg" alt=""></div>
-          <div class="achievements__row">275,000+</div>
-          <div class="achievements__row">Positive reviews</div>
-        </li>
-      </ul>
+        <div class="achievements__head">
+          <article class="c-head-text">
+            <h2 class="c-head-text__title">
+              Completely
+              <a href="#" class="c-head-text__link">free to use</a> with useful
+              premium features
+            </h2>
+            <p class="c-head-text__description">
+              Join us and see why our users love us ❤️
+            </p>
+          </article>
+        </div>
+        <ul class="achievements__list">
+          <li class="achievements__item achievements__item--purple">
+            <div class="achievements__icon c-icon-box c-icon-box--purple">
+              <img src="icons/profile.svg" alt="" />
+            </div>
+            <div class="achievements__counter">3,000,000+</div>
+            <div class="achievements__info">Daily active users</div>
+          </li>
+          <li class="achievements__item achievements__item--pink">
+            <div class="achievements__icon c-icon-box c-icon-box--pink">
+              <img src="icons/task.svg" alt="" />
+            </div>
+            <div class="achievements__counter">10,090,000+</div>
+            <div class="achievements__info">Tasks completed</div>
+          </li>
+          <li class="achievements__item achievements__item--orange">
+            <div class="achievements__icon c-icon-box c-icon-box--orange">
+              <img src="icons/business.svg" alt="" />
+            </div>
+            <div class="achievements__counter">12,500+</div>
+            <div class="achievements__info">Companies using our software</div>
+          </li>
+          <li class="achievements__item achievements__item--green">
+            <div class="achievements__icon c-icon-box c-icon-box--green">
+              <img src="icons/positive.svg" alt="" />
+            </div>
+            <div class="achievements__counter">275,000+</div>
+            <div class="achievements__info">Positive reviews</div>
+          </li>
+        </ul>
       </div>
     </section>
 
     <!-- Trial -->
     <section class="trial">
       <div class="trial__container l-container">
-      <div class="trial__container">
-        <div class="trial__col">
-          <article class="head-text">
-            <h2 class="head-text__title">Completely <a href="#">free to use</a> with useful premium features</h2>
-            <p class="head-text__description">Join us and see why our users love us ❤️</p>
-          </article>
+        <div class="trial__container">
+          <div class="trial__col">
+            <article class="c-head-text">
+              <h2 class="c-head-text__title">
+                Completely
+                <a href="#" class="c-head-text__link">free to use</a> with
+                useful premium features
+              </h2>
+              <p class="c-head-text__description">
+                Join us and see why our users love us ❤️
+              </p>
+            </article>
+          </div>
+          <div class="trial__col">
+            <a href="#" class="c-btn c-btn--start">
+              <i class="fas fa-chevron-right arrow-right"></i>
+              <span>Get Started</span>
+            </a>
+          </div>
         </div>
-        <div class="trial__col">
-          <a href="#" class="c-btn c-btn--start">
-            <i class="fas fa-chevron-right arrow-right"></i>
-            <span>Get Started</span>
-          </a>
-        </div>
-      </div>
       </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
       <div class="footer__container l-container">
-      <div class="footer__row">
-        <div class="footer__col">
-        <img src="icons/logo-dark.svg" alt="" class="footer__icon">
-        <div class="footer__mode">
-          <img src="icons/sun.svg" alt="" class="footer__mode-state">
-          <div class="c-switch">
-            <button class="c-switch__btn"></button>
+        <div class="footer__row">
+          <div class="footer__col">
+            <img src="icons/logo-dark.svg" alt="" class="footer__icon" />
+            <div class="footer__mode">
+              <img src="icons/sun.svg" alt="" class="footer__mode-state" />
+              <div class="c-switch">
+                <button class="c-switch__btn"></button>
+              </div>
+            </div>
+          </div>
+          <div class="footer__col">
+            <ul class="footer__menu">
+              <li class="footer__item">
+                <a href="#" class="c-link">Pricing</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="c-link">How it Works</a>
+              </li>
+              <li class="footer__item"><a href="#" class="c-link">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <ul class="footer__policy">
+              <li class="footer__item">
+                <a href="#" class="c-link">Terms of Service</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="c-link">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <div class="footer__link">
+              <a href="#" class="footer__sns"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="footer__sns"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="footer__sns"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </div>
           </div>
         </div>
-        </div>
-        <div class="footer__col">
-        <ul class="footer__menu">
-          <li class="footer__item"><a href="#" class="c-link">Pricing</a></li>
-          <li class="footer__item"><a href="#" class="c-link">How it Works</a></li>
-          <li class="footer__item"><a href="#" class="c-link">FAQ</a></li>
-        </ul>
-        </div>
-        <div class="footer__col">
-        <ul class="footer__policy">
-          <li class="footer__item"><a href="#" class="c-link">Terms of Service</a></li>
-          <li class="footer__item"><a href="#" class="c-link">Privacy Policy</a></li>
-        </ul>
-        </div>
-        <div class="footer__col">
-        <div class="footer__link">
-          <a href="#" class="footer__sns"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="footer__sns"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="footer__sns"><i class="fab fa-facebook-f"></i></a>
-        </div>
-        </div>
-      </div>
       </div>
     </footer>
 
     <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/cd2686e2ae.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/cd2686e2ae.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

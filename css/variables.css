@@ -6,6 +6,7 @@
   --light-purple: #f0ecff;
   --gray: #4c5d77;
   --light-gray: #fafbff;
+  --light-blue: #ecf8ff;
   --orange: #ff9900;
   --light-orange: #faf3ef;
   --pink: #fb5292;
@@ -31,7 +32,6 @@
   --font-bold: 700;
 
   /* Space size */
-  --base-space: 80px;
   --space-regular: 48px;
   --space-small: 32px;
   --space-micro: 24px;

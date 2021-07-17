@@ -1,0 +1,20 @@
+.qualities__container {
+  max-width: 960px;
+}
+
+.qualities__list {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-micro);
+  font-weight: var(--font-bold);
+  color: var(--navy);
+}
+
+.qualities__item {
+  display: flex;
+  align-items: center;
+}
+
+.qualities__icon {
+  margin-right: 24px;
+}
