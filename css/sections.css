@@ -1,0 +1,183 @@
+/* Header */
+.header {
+  margin-bottom: var(--space-micro);
+  padding: var(--space-regular) 0;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 0;
+  margin-right: 96px;
+}
+
+.header__col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__item {
+  margin-right: var(--space-regular);
+}
+
+.header__control {
+  display: flex;
+  align-items: center;
+}
+
+.header__sign-in {
+  display: flex;
+  align-items: center;
+}
+
+.header__start-btn {
+  background-color: var(--purple);
+  color: white;
+  margin-left: 36px;
+}
+
+.header__start-btn {
+  font-size: var(--font-micro);
+}
+
+/* Main */
+.main {
+  position: relative;
+  overflow: hidden;
+  padding: 93px 0;
+}
+
+.main__container {
+  display: flex;
+}
+
+.main__text {
+  max-width: 576px;
+}
+
+.main__image {
+  position: absolute;
+  top: 0;
+  left: calc(50% + 50px);
+}
+
+.main__description {
+  margin-bottom: 64px;
+}
+
+.main__btns {
+  display: flex;
+}
+
+.main__start-btn {
+  margin-right: 32px;
+}
+
+/* Qualities */
+.qualities__container {
+  max-width: 960px;
+}
+
+.qualities__list {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-micro);
+  font-weight: var(--font-bold);
+  color: var(--navy);
+}
+
+.qualities__item {
+  display: flex;
+  align-items: center;
+}
+
+.qualities__icon {
+  margin-right: 24px;
+}
+
+/* Work */
+.work__container {
+  max-width: 1236px;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+}
+
+.detail:not(last-child) {
+  margin-bottom: 144px;
+}
+
+.detail:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.detail__window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  height: 530px;
+  width: 530px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.detail:nth-child(odd) .detail__window {
+  margin-right: 144px;
+}
+
+.detail:nth-child(even) .detail__window {
+  margin-left: 144px;
+}
+
+.detail__window--purple {
+  background-color: var(--purple);
+}
+
+.detail__window--orange {
+  background-color: var(--orange);
+}
+
+.detail__window--pink {
+  background-color: var(--pink);
+}
+
+.detail__link {
+  display: block;
+  margin-top: var(--space-regular);
+  font-size: var(--font-micro);
+  font-weight: var(--font-bold);
+  color: var(--purple);
+}
+
+/* System */
+.system__container {
+  text-align: center;
+}
+
+.system__head {
+  max-width: 710px;
+  margin: 0 auto 80px;
+}
+
+/* Reviews */
+.reviews__container {
+  display: flex;
+  align-items: center;
+}
+
+.reviews__title {
+  margin-right: 144px;
+}
