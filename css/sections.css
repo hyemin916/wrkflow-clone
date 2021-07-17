@@ -233,3 +233,20 @@
 .achievements__info {
   font-size: 24px;
 }
+
+/* Trial */
+.trial__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 56px;
+  background: var(--trial-box) url("/img/pattern.png") center/cover no-repeat;
+  padding: 104px 96px;
+}
+
+.trial__text {
+  width: 670px;
+  text-align: start;
+  margin-bottom: 0;
+  margin-right: auto;
+}

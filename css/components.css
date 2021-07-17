@@ -5,7 +5,7 @@
   align-items: center;
   min-width: 154px;
   height: 64px;
-  padding: 0 var(--space-small);
+  padding: 0 32px;
   font-weight: 700;
   border-radius: 56px;
   background-color: var(--purple);
