@@ -144,7 +144,6 @@
 .c-slider__items {
   display: flex;
   width: 616px;
-  height: 328px;
   flex-shrink: 0;
   overflow-x: scroll;
   -ms-overflow-style: none;
@@ -157,7 +156,6 @@
 .c-slider__item {
   display: flex;
   width: 616px;
-  height: 328px;
   flex-shrink: 0;
 }
 
@@ -175,12 +173,15 @@
   width: 7px;
   height: 7px;
   padding: 0;
-  margin-right: 12px;
   border-radius: 50%;
   border: 1px solid var(--purple);
   outline: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+.c-slider__dot:not(:last-child) {
+  margin-right: 12px;
 }
 
 .c-slider__dot.active {

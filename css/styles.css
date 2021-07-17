@@ -34,16 +34,16 @@ h2 {
 }
 
 h1 {
-  font-size: var(--font-large);
+  font-size: 48px;
 }
 
 h2 {
-  font-size: var(--font-medium);
+  font-size: 36px;
   margin-bottom: 32px;
 }
 
 p {
-  font-size: var(--font-regular);
+  font-size: 24px;
   line-height: 1.66667;
 }
 

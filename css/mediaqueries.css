@@ -1,0 +1,302 @@
+@media screen and (max-width: 1364px) {
+  .l-section {
+    margin-bottom: 120px;
+  }
+
+  .system__image {
+    max-width: 940px;
+  }
+
+  .trial__box {
+    padding: 72px 48px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .main__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 704px;
+    margin-bottom: 72px;
+  }
+
+  .main__image {
+    position: static;
+    width: 90%;
+  }
+
+  .detail {
+    flex-direction: column;
+  }
+
+  .detail:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .detail:nth-child(odd) .detail__window,
+  .detail:nth-child(even) .detail__window {
+    margin: 0 auto 72px;
+  }
+
+  .detail__text {
+    max-width: 528px;
+    text-align: center;
+  }
+
+  .reviews__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .reviews__title {
+    max-width: 704px;
+    margin-bottom: 72px;
+  }
+
+  .c-slider__items {
+    max-width: 488px;
+  }
+
+  .c-slider__item {
+    flex-direction: column;
+    align-items: center;
+    max-width: 488px;
+  }
+
+  .c-slider__avatar {
+    margin: 0 auto 48px;
+  }
+
+  .c-slider__dots {
+    padding-left: 0;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .l-container {
+    padding: 0 40px;
+  }
+
+  .c-head-text {
+    margin-bottom: 72px;
+  }
+
+  .header {
+    padding: 32px 0;
+  }
+
+  .header__col {
+    display: none;
+  }
+
+  .header__toggle {
+    display: block;
+  }
+
+  .qualities__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -48px;
+  }
+
+  .qualities__item {
+    flex-basis: 50%;
+    margin-top: 48px;
+  }
+
+  .detail__text {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .system__image {
+    height: 407px;
+  }
+
+  .achievements__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .achievements__item {
+    text-align: center;
+  }
+
+  .achievements__icon {
+    margin: auto;
+  }
+
+  .trial__box {
+    flex-direction: column;
+    background: none;
+  }
+
+  .trial__text {
+    text-align: center;
+  }
+
+  .footer__row {
+    flex-wrap: wrap;
+  }
+
+  .footer__col:last-child {
+    flex-basis: 100%;
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 2;
+  }
+
+  .l-section {
+    margin-bottom: 104px;
+  }
+  .l-container {
+    padding: 0 32px;
+  }
+
+  .c-btn {
+    height: 56px;
+    font-size: 16px;
+    border-radius: 28px;
+  }
+
+  .c-btn .arrow-right {
+    margin: 0 20px 0 0;
+  }
+
+  .header__container {
+    height: 48px;
+  }
+
+  .main {
+    padding: 0;
+  }
+  .main__text {
+    margin-bottom: 48px;
+  }
+  .main__description {
+    margin-bottom: 48px;
+  }
+
+  .qualities__list {
+    flex-direction: column;
+    max-width: 240px;
+    margin: 0 auto 0;
+  }
+
+  .qualities__item {
+    justify-content: flex-start;
+  }
+
+  .detail__window {
+    width: 310px;
+    height: 310px;
+  }
+
+  .detail__image {
+    width: 500px;
+  }
+
+  .detail__link {
+    margin-top: 40px;
+  }
+
+  .system__image {
+    height: 238px;
+  }
+
+  .reviews__title {
+    margin-bottom: 56px;
+  }
+
+  .c-slider__items,
+  .c-slider__item {
+    max-width: 100%;
+  }
+
+  .c-slider__avatar {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+  }
+
+  .c-slider__title {
+    font-size: 20px;
+  }
+
+  .achievements__item {
+    margin-bottom: 56px;
+  }
+
+  .achievements__counter {
+    font-size: 36px;
+    margin: 32px 0 16px 0;
+  }
+  .achievements__info {
+    font-size: 20px;
+  }
+
+  .trial__box {
+    padding: 0;
+  }
+
+  .trial__text {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+
+  .trial__col {
+    width: 100%;
+  }
+
+  .trial__btn {
+    flex-basis: 100%;
+  }
+
+  .footer__col:first-child {
+    flex-basis: 100%;
+    margin-bottom: 48px;
+  }
+
+  .footer__col:nth-child(3) {
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .main__btns {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main__start-btn,
+  .main__demo-btn {
+    width: 100%;
+  }
+
+  .main__start-btn {
+    margin-bottom: 48px;
+  }
+}

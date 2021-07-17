@@ -33,6 +33,7 @@
   --font-bold: 700;
 
   /* Space size */
+  --space-large: 144px;
   --space-regular: 48px;
   --space-small: 32px;
   --space-micro: 24px;

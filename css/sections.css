@@ -1,7 +1,8 @@
 /* Header */
 .header {
-  margin-bottom: var(--space-micro);
-  padding: var(--space-regular) 0;
+  position: relative;
+  margin-bottom: 24px;
+  padding: 48px 0;
 }
 
 .header__container {
@@ -48,6 +49,37 @@
 
 .header__start-btn {
   font-size: var(--font-micro);
+}
+
+.header__toggle {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--purple);
+  border: none;
+  outline: none;
+  display: none;
+}
+
+.header__toggle::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 20px;
+  background-color: white;
+  transform: translate(calc(18px - 50%), -4px);
+}
+
+.header__toggle::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 20px;
+  background-color: white;
+  transform: translate(calc(18px - 50%), 4px);
 }
 
 /* Main */
@@ -98,6 +130,7 @@
 
 .qualities__item {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -116,7 +149,7 @@
 }
 
 .detail:not(last-child) {
-  margin-bottom: 144px;
+  margin-bottom: var(--space-large);
 }
 
 .detail:nth-child(even) {
@@ -183,11 +216,12 @@
 /* Reviews */
 .reviews__container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 .reviews__title {
-  margin-right: 144px;
+  max-width: 488px;
 }
 
 /* Achievements */
@@ -208,20 +242,15 @@
 }
 
 .achievements__item {
+  min-width: 308px;
   margin-bottom: 80px;
-}
-
-.achievements__item:nth-child(odd) {
-  margin-right: auto;
-}
-
-.achievements__item div:not(last-child) {
-  margin-bottom: 32px;
+  text-align: left;
 }
 
 .achievements__counter {
   font-family: "Merriweather", serif;
   font-size: var(--font-large);
+  margin: 32px 0;
 }
 
 .achievements__counter--purple {
@@ -298,6 +327,12 @@
   height: 32px;
   border-radius: 36px;
   background-color: var(--light-purple);
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+.footer__switch:hover {
+  opacity: 0.9;
 }
 
 .footer__btn {
@@ -307,6 +342,8 @@
   border-radius: 50%;
   border: 6px solid var(--purple);
   margin-left: 7px;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .footer__menu {
@@ -314,7 +351,8 @@
   flex-direction: column;
 }
 
-.footer__item {
+.footer__item:not(:last-child) {
+  align-items: flex-start;
   margin-bottom: 24px;
 }
 
@@ -324,6 +362,7 @@
 
 .footer__link {
   display: flex;
+  flex-shrink: 0;
 }
 
 .footer__sns {
@@ -334,6 +373,7 @@
   height: 48px;
   border-radius: 50%;
   border: var(--light-border);
+  font-size: 24px;
   color: var(--purple);
   transition: all 250ms ease-in-out;
 }
